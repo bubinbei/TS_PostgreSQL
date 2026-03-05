@@ -1,8 +1,9 @@
-```
-npm install
-npm run dev
+```bash
+bun install
+bun run dev
 ```
 
-```
-open http://localhost:3000
+```bash
+# Windows (PowerShell)
+start http://localhost:3000
 ```

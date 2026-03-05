@@ -8,11 +8,17 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.19.11",
-    "hono": "^4.12.5"
+    "@prisma/adapter-pg": "^7.4.2",
+    "@prisma/client": "^7.4.2",
+    "@types/pg": "^8.18.0",
+    "dotenv": "^17.3.1",
+    "hono": "^4.12.5",
+    "pg": "^8.20.0",
+    "prisma": "^7.4.2"
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
-    "tsx": "^4.7.1",
+    "tsx": "^4.21.0",
     "typescript": "^5.8.3"
   }
 }
