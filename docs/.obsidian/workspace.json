@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/00_План_и_карта.md",
+                "file": "obsidian/commits/0012_relation_ownerId_owner_explained.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_План_и_карта"
+              "title": "0012_relation_ownerId_owner_explained"
             }
           }
         ]
@@ -185,9 +185,11 @@
   },
   "active": "b4dfcc98d053899b",
   "lastOpenFiles": [
-    "obsidian/commits/0010_prisma_schema_line_by_line_user_channel.md",
-    "obsidian/01_Соглашение_по_регламенту_работы.md",
     "obsidian/00_План_и_карта.md",
+    "obsidian/01_Соглашение_по_регламенту_работы.md",
+    "obsidian/commits/0011_prisma_drift_missing_local_migrations.md",
+    "obsidian/commits/0012_relation_ownerId_owner_explained.md",
+    "obsidian/commits/0010_prisma_schema_line_by_line_user_channel.md",
     "obsidian/commits/0009_user_model_first_migration.md",
     "obsidian/commits/0008_postgresql_windows_path_psql_prisma_recovery.md",
     "obsidian/commits/0007_winget_not_found_windows.md",

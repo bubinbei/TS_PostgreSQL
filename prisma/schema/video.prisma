@@ -1,0 +1,16 @@
+model Video {
+  id String @id @default(cuid())
+
+  name String @unique
+  description String? // не знаю нужно ли, но пусть будет
+  preview String?
+  views Int @default(0)
+
+  channelId String @map("channel_id")
+  channel Channel @relation(fields: [channelId], references: [id])
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("videos")
+}
