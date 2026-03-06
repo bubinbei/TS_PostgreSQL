@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/commits/0008_postgresql_windows_path_psql_prisma_recovery.md",
+                "file": "obsidian/01_Соглашение_по_регламенту_работы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0008_postgresql_windows_path_psql_prisma_recovery"
+              "title": "01_Соглашение_по_регламенту_работы"
             }
           }
         ]
@@ -186,8 +186,10 @@
   "active": "b4dfcc98d053899b",
   "lastOpenFiles": [
     "obsidian/00_План_и_карта.md",
-    "obsidian/commits/0007_winget_not_found_windows.md",
+    "obsidian/01_Соглашение_по_регламенту_работы.md",
+    "obsidian/commits/0009_user_model_first_migration.md",
     "obsidian/commits/0008_postgresql_windows_path_psql_prisma_recovery.md",
+    "obsidian/commits/0007_winget_not_found_windows.md",
     "obsidian/commits/0006_qsql_command_not_found.md"
   ]
 }
