@@ -11,6 +11,8 @@ model User {
   updatedAt DateTime @updatedAt @map("updated_at")
 
   channels Channel[]
+  likes Like[]
+  comments Comment[]
 
   @@map("users")
 }
