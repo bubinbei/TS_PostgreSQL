@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import { serve } from '@hono/node-server'
 import { Hono } from 'hono'
 import withPrisma, { type AppBindings } from './lib/prisma.js'
@@ -9,6 +10,22 @@ app.use('*', withPrisma)
 app.get('/', (c) => {
   return c.text('Hello Hono!')
 })
+
+app.get('/users', async (c) => {
+  const prisma = c.get('prisma')
+  const users = await prisma.user.findMany()
+
+  return c.json(users)
+})
+
+// get by id
+// 
+// create
+// 
+// update
+// 
+// delete
+// 
 
 serve({
   fetch: app.fetch,
